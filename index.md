@@ -6,4 +6,4 @@
  During training we leverage diﬀerentiable rendering to supplement a state-of-the-art direct regression objective with a novel smooth silhouette loss.
  Our results demonstrate its qualitative and quantitative performance gains over traditional silhouette objectives.
  # Code
- Code and data will be available soon.
+ Our code and data will be available soon.
