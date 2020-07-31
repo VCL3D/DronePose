@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: DronePose
-show_downloads: true
+show_downloads: false
 description:
 
 github:
