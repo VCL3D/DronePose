@@ -1,3 +1,12 @@
 theme: jekyll-theme-minimal
 title: DronePose
-description: This is the main project page of DronePose: Photorealistic UAV-Assistant Dataset Synthesis for 3D Pose Estimation via a Smooth Silhouette Loss
+show_downloads: true
+description:
+
+github:
+    model_url: https://github.com/VCL3D/DronePose
+    repository_url: https://github.com/VCL3D/DronePose
+    is_project_page: true
+    repository_name: DronePose
+    owner_url: https://github.com/VCL3D
+    owner_name: VCL3D
