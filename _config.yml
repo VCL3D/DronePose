@@ -1,1 +1,3 @@
 theme: jekyll-theme-minimal
+title: DronePose project page
+description: This is the main project page of "DronePose: Photorealistic UAV-Assistant Dataset Synthesis for 3D Pose Estimation via a Smooth Silhouette Loss", as it submitted, and presented in ECCV 2020.
