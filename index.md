@@ -10,13 +10,6 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/O7MKDN9Fwms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
- <h1> Code </h1>
- Our code and data will be available soon.
-
- <h1> Method </h1>
- A monocular sigle-shot pose estimation method enhanced with a differentiable renderer.
- 
-
 <h1>In-The-Wild (YouTube) Results</h1>
 <table>
 <tr>
