@@ -30,7 +30,8 @@
 </tr>
 </table>
 <h1> Loss Analysis </h1>
-Apart from the quantitative improvement we further analyze the performance of our proposed smooth silhouette consistency loss function compared to the  typical IoU.
+We demonstrate that the addition of an exocentric supervision through a differentiable renderer enhances the performace of our method.
+However, we further demonstrate that the selection of a smoother loss for the exocentric supervision instead of typical losses (e.g. IoU, GIoU) yields better results and allows us to train a more robust model, able to generalise better.
 <h2> Loss Landscape Analysis </h2>
 Additionally, we provide a loss landscape analysis and 3D visualization of the loss surfaces.
 The IoU has noticeable convexity in contrast to our proposed loss.
