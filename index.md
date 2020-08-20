@@ -5,7 +5,11 @@
  and the egocentric UAV view. We then exploit the joint availability of photorealistic and synthesized inputs to train a single-shot monocular pose estimation model.
  During training we leverage diﬀerentiable rendering to supplement a state-of-the-art direct regression objective with a novel smooth silhouette loss.
  Our results demonstrate its qualitative and quantitative performance gains over traditional silhouette objectives.
- 
+
+<h1 id="overview">Overview</h1>
+
+<iframe width="660" height="371" src="https://www.youtube.com/watch?v=O7MKDN9Fwms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
  <h1> Code </h1>
  Our code and data will be available soon.
  
