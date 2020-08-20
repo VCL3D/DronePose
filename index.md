@@ -98,6 +98,16 @@ The smoothly supervised model minimizes inconsistencies in time and is more robu
 </td>
 </tr>
 </table>
+
+ <h1> Publication </h1>
+<p><a href="https://arxiv.org/abs/3330751"><img src="./assets/images/PaperImage.png" title="arXiv paper link" alt="arXiv"></a></p>
+<h2> Authors </h2>
+
+<p><a href="https://github.com/tzole1155">Vasilis Gkitsas</a> <strong>*</strong>, <a href="https://github.com/zokin">Nikolaos</a> <a href="https://github.com/zuru">Zioulis</a> <strong>*</strong>, <a href="https://www.iti.gr/iti/people/Anastasios_Dimou.html">Anastasios Dimou</a>, <a href="https://www.iti.gr/iti/people/Dimitrios_Zarpalas.html">Dimitrios Zarpalas</a>, and <a href="https://www.iti.gr/iti/people/Petros_Daras.html">Petros Daras</a></p>
+
+<h2> Citation </h2>
+
+
  <h1> Acknowledgements </h1>
  This project has received funding from the European Union’s Horizon 2020 innovation programme [FASTER](https://www.faster-project.eu/) under grant agreement No 833507.
 
