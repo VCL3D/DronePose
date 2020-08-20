@@ -17,8 +17,7 @@
  A monocular sigle-shot pose estimation method enhanced with a differentiable renderer.
  
 
-<h1> Results </h1>
-Qualitative results in YouTube videos.
+<h1>In-The-Wild (YouTube) Results</h1>
 <table>
 <tr>
 <td>
@@ -39,21 +38,6 @@ Qualitative results in YouTube videos.
 </table>
 <h1> Loss Analysis </h1>
 Apart from the quantitative improvement we further analyze the performance of our proposed smooth silhouette consistency loss function compared to the  typical IoU.
-<h2> Interpolation </h2>
-In our first experiment, we selected one random ground-truth pose and we interpolate between it with a random pose.
-It can be seen that the proposed loss is more ﬂat than the IoU.
-<table>
-<tr>
-<td>
-<img src="./assets/images/InterpolationExp.png" alt="InterpolationExp">
-</td>
-</tr>
-<tr>
-<td>
-<img src="./assets/images/losses_lerp_1.gif" alt="InterpolationExp_1">
-</td>
-</tr>
-</table>
 <h2> Loss Landscape Analysis </h2>
 Additionally, we provide a loss landscape analysis and 3D visualization of the loss surfaces.
 The IoU has noticeable convexity in contrast to our proposed loss.
@@ -74,6 +58,21 @@ The proposed loss is smoother and contains a better defined minima region.
 </td>
 </tr>
 </table>
+<h2> Interpolation </h2>
+In our first experiment, we selected one random ground-truth pose and we interpolate between it with a random pose.
+It can be seen that the proposed loss is more ﬂat than the IoU.
+<table>
+<tr>
+<td>
+<img src="./assets/images/InterpolationExp.png" alt="InterpolationExp">
+</td>
+</tr>
+<tr>
+<td>
+<img src="./assets/images/losses_lerp_1.gif" alt="InterpolationExp_1">
+</td>
+</tr>
+</table>
 <h2> Comparison in real data </h2>
 Finally, we provide comparison results between a model trained with an IoU loss and another with our proposed smooth objective, in unseen real data. 
 The smoothly supervised model minimizes inconsistencies in time and is more robust as it can be seen from the above video.
@@ -89,7 +88,7 @@ The smoothly supervised model minimizes inconsistencies in time and is more robu
 </table>
 
  <h1> Data </h1>
-The data used to train our methods can be found <a href="https://vcl3d.github.io/UAVA/">here</a>.
+The data used to train our methods is a subset of <a href="https://vcl3d.github.io/UAVA/">UAVA dataset</a>. The data can be downloaded following a two-step proccess.
 <h1> Publication </h1>
 <p><a href="https://arxiv.org/abs/3330751"><img src="./assets/images/PaperImage.png" title="arXiv paper link" alt="arXiv"></a></p>
 <h2> Authors </h2>
