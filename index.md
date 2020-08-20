@@ -8,7 +8,7 @@
 
 <h1 id="overview">Overview</h1>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/O7MKDN9Fwms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dSbeu238I-I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <h1>In-The-Wild (YouTube) Results</h1>
 <table>
@@ -82,7 +82,7 @@ The smoothly supervised model minimizes inconsistencies in time and is more robu
 </table>
 
  <h1> Data </h1>
-The data used to train our methods is a subset of <a href="https://vcl3d.github.io/UAVA/">UAVA dataset</a>. The data can be downloaded following a two-step proccess.
+The data used to train our methods is a subset of the <a href="https://vcl3d.github.io/UAVA/">UAVA dataset</a>. The data can be downloaded following a two-step proccess.
 <h1> Publication </h1>
 <p><a href="https://arxiv.org/abs/3330751"><img src="./assets/images/PaperImage.png" title="arXiv paper link" alt="arXiv"></a></p>
 <h2> Authors </h2>
