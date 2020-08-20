@@ -24,23 +24,14 @@ Qualitative results in YouTube videos.
 <td>
 <img src="./assets/images/Outdoor_1.gif" alt="Outdoor_1">
 </td>
-</tr>
-<tr>
 <td>
 <img src="./assets/images/Outdoor_2.gif" alt="Outdoor_2">
 </td>
 </tr>
 <tr>
 <td>
-<img src="./assets/images/Outdoor_3.gif" alt="Outdoor_3">
-</td>
-</tr>
-<tr>
-<td>
 <img src="./assets/images/Indoor_1.gif" alt="Indoor_1">
 </td>
-</tr>
-<tr>
 <td>
 <img src="./assets/images/Indoor_2.gif" alt="Indoor_2">
 </td>
@@ -91,8 +82,6 @@ The smoothly supervised model minimizes inconsistencies in time and is more robu
 <td>
 <img src="./assets/images/IoUvsSmoothLoss_v1.gif" alt="ComparisonReal">
 </td>
-</tr>
-<tr>
 <td>
 <img src="./assets/images/IoUvsSmoothLoss_v2.gif" alt="ComparisonReal_2">
 </td>
@@ -103,7 +92,7 @@ The smoothly supervised model minimizes inconsistencies in time and is more robu
 <p><a href="https://arxiv.org/abs/3330751"><img src="./assets/images/PaperImage.png" title="arXiv paper link" alt="arXiv"></a></p>
 <h2> Authors </h2>
 
-<p><a href="https://github.com/tzole1155">Vasilis Gkitsas</a> <strong>*</strong>, <a href="https://github.com/zokin">Nikolaos</a> <a href="https://github.com/zuru">Zioulis</a> <strong>*</strong>, <a href="https://www.iti.gr/iti/people/Anastasios_Dimou.html">Anastasios Dimou</a>, <a href="https://www.iti.gr/iti/people/Dimitrios_Zarpalas.html">Dimitrios Zarpalas</a>, and <a href="https://www.iti.gr/iti/people/Petros_Daras.html">Petros Daras</a></p>
+<p><a href="https://github.com/tzole1155">Georgios Albanis</a> <strong>*</strong>, <a href="https://github.com/zokin">Nikolaos</a> <a href="https://github.com/zuru">Zioulis</a> <strong>*</strong>, <a href="https://www.iti.gr/iti/people/Anastasios_Dimou.html">Anastasios Dimou</a>, <a href="https://www.iti.gr/iti/people/Dimitrios_Zarpalas.html">Dimitrios Zarpalas</a>, and <a href="https://www.iti.gr/iti/people/Petros_Daras.html">Petros Daras</a></p>
 
 <h2> Citation </h2>
 
