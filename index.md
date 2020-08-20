@@ -19,7 +19,33 @@
 
 <h1> Results </h1>
 Qualitative results in YouTube videos.
-
+<table>
+<tr>
+<td>
+<img src="./assets/images/Outdoor_1.gif" alt="Outdoor_1">
+</td>
+</tr>
+<tr>
+<td>
+<img src="./assets/images/Outdoor_2.gif" alt="Outdoor_2">
+</td>
+</tr>
+<tr>
+<td>
+<img src="./assets/images/Outdoor_3.gif" alt="Outdoor_3">
+</td>
+</tr>
+<tr>
+<td>
+<img src="./assets/images/Indoor_1.gif" alt="Indoor_1">
+</td>
+</tr>
+<tr>
+<td>
+<img src="./assets/images/Indoor_2.gif" alt="Indoor_2">
+</td>
+</tr>
+</table>
 <h1> Loss Analysis </h1>
 Apart from the quantitative improvement we further analyze the performance of our proposed smooth silhouette consistency loss function compared to the  typical IoU.
 <h2> Interpolation </h2>
@@ -38,17 +64,40 @@ It can be seen that the proposed loss is more ﬂat than the IoU.
 </tr>
 </table>
 <h2> Loss Landscape Analysis </h2>
-We provide a loss landscape analysis and 3D visualization of the loss surfaces.
+Additionally, we provide a loss landscape analysis and 3D visualization of the loss surfaces.
 The IoU has noticeable convexity in contrast to our proposed loss.
-(./assets/images/LossLandscape.png)
+<table>
+<tr>
+<td>
+<img src="./assets/images/LossLandscape.png" alt="LossLandscape">
+</td>
+</tr>
+</table>
 <h2> Loss distribution </h2>
-We present the distribution of the IoU loss compared to the smooth silhouette consistency one across a dense sampling of poses. 
+Then, we present the distribution of the IoU loss compared to the smooth silhouette consistency one across a dense sampling of poses. 
 The proposed loss is smoother and contains a better defined minima region.
-(./assets/images/smooth_loss.png)
+<table>
+<tr>
+<td>
+<img src="./assets/images/smooth_loss.png" alt="SmoothLossDistribution">
+</td>
+</tr>
+</table>
 <h2> Comparison in real data </h2>
 Finally, we provide comparison results between a model trained with an IoU loss and another with our proposed smooth objective, in unseen real data. 
 The smoothly supervised model minimizes inconsistencies in time and is more robust as it can be seen from the above video.
-(./assets/images/IoUvsSmoothLoss_v1.gif)
+<table>
+<tr>
+<td>
+<img src="./assets/images/IoUvsSmoothLoss_v1.gif" alt="ComparisonReal">
+</td>
+</tr>
+<tr>
+<td>
+<img src="./assets/images/IoUvsSmoothLoss_v2.gif" alt="ComparisonReal_2">
+</td>
+</tr>
+</table>
  <h1> Acknowledgements </h1>
  This project has received funding from the European Union’s Horizon 2020 innovation programme [FASTER](https://www.faster-project.eu/) under grant agreement No 833507.
 
