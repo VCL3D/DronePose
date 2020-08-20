@@ -12,7 +12,34 @@
 
  <h1> Code </h1>
  Our code and data will be available soon.
+
+ <h1> Method </h1>
+ A monocular sigle-shot pose estimation method enhanced with a differentiable renderer.
  
+
+<h1> Results </h1>
+Qualitative results in YouTube videos.
+
+<h1> Loss Analysis </h1>
+Compare a typical IoU loss with our proposed smooth one.
+<h2> Interpolation </h2>
+Apart from the quantitative improvement we further analyze the performance of our proposed smooth silhouette consistency loss function compared to the  typical IoU.
+In our first experiment, we selected one random ground-truth pose and we interpolate between it with a random pose.
+It can be seen that the proposed loss is more ﬂat than the IoU.
+(./assets/images/InterpolationExp.png)
+(./assets/images/losses_lerp_1.gif)
+<h2> Loss Landscape Analysis </h2>
+We provide a loss landscape analysis and 3D visualization of the loss surfaces.
+The IoU has noticeable convexity in contrast to our proposed loss.
+(./assets/images/LossLandscape.png)
+<h2> Loss distribution </h2>
+We present the distribution of the IoU loss compared to the smooth silhouette consistency one across a dense sampling of poses. 
+The proposed loss is smoother and contains a better defined minima region.
+(./assets/images/smooth_loss.png)
+<h2> Comparison in real data </h2>
+Finally, we provide comparison results between a model trained with an IoU loss and another with our proposed smooth objective, in unseen real data. 
+The smoothly supervised model minimizes inconsistencies in time and is more robust as it can be seen from the above video.
+(./assets/images/IoUvsSmoothLoss_v1.gif)
  <h1> Acknowledgements </h1>
  This project has received funding from the European Union’s Horizon 2020 innovation programme [FASTER](https://www.faster-project.eu/) under grant agreement No 833507.
 
