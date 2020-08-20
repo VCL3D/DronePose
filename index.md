@@ -8,7 +8,7 @@
 
 <h1 id="overview">Overview</h1>
 
-<iframe width="660" height="371" src="https://www.youtube.com/watch?v=O7MKDN9Fwms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O7MKDN9Fwms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
  <h1> Code </h1>
  Our code and data will be available soon.
