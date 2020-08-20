@@ -26,8 +26,16 @@ Compare a typical IoU loss with our proposed smooth one.
 Apart from the quantitative improvement we further analyze the performance of our proposed smooth silhouette consistency loss function compared to the  typical IoU.
 In our first experiment, we selected one random ground-truth pose and we interpolate between it with a random pose.
 It can be seen that the proposed loss is more ﬂat than the IoU.
-(./assets/images/InterpolationExp.png)
-(./assets/images/losses_lerp_1.gif)
+<table>
+<tr>
+<td>
+<img src="./assets/images/InterpolationExp.png" alt="InterpolationExp">
+</td>
+<td>
+<img src="./assets/images/losses_lerp_1.gif" alt="InterpolationExp_1">
+</td>
+</tr>
+</table>
 <h2> Loss Landscape Analysis </h2>
 We provide a loss landscape analysis and 3D visualization of the loss surfaces.
 The IoU has noticeable convexity in contrast to our proposed loss.
