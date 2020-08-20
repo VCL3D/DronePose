@@ -88,7 +88,9 @@ The smoothly supervised model minimizes inconsistencies in time and is more robu
 </tr>
 </table>
 
- <h1> Publication </h1>
+ <h1> Data </h1>
+The data used to train our methods can be found <a href="https://vcl3d.github.io/UAVA/">here</a>.
+<h1> Publication </h1>
 <p><a href="https://arxiv.org/abs/3330751"><img src="./assets/images/PaperImage.png" title="arXiv paper link" alt="arXiv"></a></p>
 <h2> Authors </h2>
 
@@ -100,4 +102,15 @@ The smoothly supervised model minimizes inconsistencies in time and is more robu
  <h1> Acknowledgements </h1>
  This project has received funding from the European Union’s Horizon 2020 innovation programme [FASTER](https://www.faster-project.eu/) under grant agreement No 833507.
 
-![eu](./assets/images/eu.png){:width="150px"} ![faster](./assets/images/faster.png){:width="150px"}
+ <table>
+<tr>
+<td>
+<img src="./assets/images/eu.png" alt="eu">
+</td>
+<td>
+<img src="./assets/images/faster.png" alt="faster">
+</td>
+</tr>
+</table>
+
+<!--![eu](./assets/images/eu.png){:width="150px"} ![faster](./assets/images/faster.png){:width="150px"}-->
