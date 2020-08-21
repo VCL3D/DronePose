@@ -82,9 +82,10 @@ The smoothly supervised model minimizes inconsistencies in time and is more robu
 </table>
 
  <h1> Data </h1>
-The data used to train our methods is a subset of the <a href="https://vcl3d.github.io/UAVA/">UAVA dataset</a>. The data can be downloaded following a two-step proccess.
+The data used to train our methods is a subset of the <a href="https://vcl3d.github.io/UAVA/">UAVA dataset</a>. Particularly, we used only the exocentric views that can be found in the following <a href="https://zenodo.org/record/3994337#.Xz_ruzVoSUk">link</a>.
+The data can be downloaded following a two-step proccess as lavishly described in the UAVA project page.
 <h1> Publication </h1>
-<p><a href="https://arxiv.org/abs/3330751"><img src="./assets/images/PaperImage.png" title="arXiv paper link" alt="arXiv"></a></p>
+<p><a href="https://arxiv.org/abs/2008.08823"><img src="./assets/images/PaperImage.png" title="arXiv paper link" alt="arXiv"></a></p>
 <h2> Authors </h2>
 
 <p><a href="https://github.com/tzole1155">Georgios Albanis</a> <strong>*</strong>, <a href="https://github.com/zokin">Nikolaos</a> <a href="https://github.com/zuru">Zioulis</a> <strong>*</strong>, <a href="https://www.iti.gr/iti/people/Anastasios_Dimou.html">Anastasios Dimou</a>, <a href="https://www.iti.gr/iti/people/Dimitrios_Zarpalas.html">Dimitrios Zarpalas</a>, and <a href="https://www.iti.gr/iti/people/Petros_Daras.html">Petros Daras</a></p>
