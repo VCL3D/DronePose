@@ -30,11 +30,12 @@
 </tr>
 </table>
 <h1> Loss Analysis </h1>
-We demonstrate that the addition of an exocentric supervision through a differentiable renderer enhances the performace of our method.
-However, we further demonstrate that the selection of a smoother loss for the exocentric supervision instead of typical losses (e.g. IoU, GIoU) yields better results and allows us to train a more robust model, able to generalise better.
-<h2> Loss Landscape Analysis </h2>
-Additionally, we provide a loss landscape analysis and 3D visualization of the loss surfaces.
-The IoU has noticeable convexity in contrast to our proposed loss.
+Our quantitative results demonstrate that the addition of a complementary silhouette-based supervision through a differentiable renderer, enhances overall performace.
+Yet we also present an analysis with respect to the traditional IoU silhouette loss and our proposed smoother objective. 
+Through the following multi-faceted analysis we conclude that the smoother loss variant exhibits more robust inference performance.
+<h2> Loss Landscape </h2>
+The following loss landscape analysis shows a 3D visualization of the loss surfaces from an IoU supervised model in comparison to the smooth silhouette loss.
+The IoU trained model has noticeable convexity in contrast to our proposed smooth loss.
 <table>
 <tr>
 <td>
@@ -42,9 +43,9 @@ The IoU has noticeable convexity in contrast to our proposed loss.
 </td>
 </tr>
 </table>
-<h2> Loss distribution </h2>
-Then, we present the distribution of the IoU loss compared to the smooth silhouette consistency one across a dense sampling of poses. 
-The proposed loss is smoother and contains a better defined minima region.
+<h2> Loss Distribution </h2>
+The following kernel density plots show the loss evaluations across a dense sampling of poses around the same rendered silhouette.
+It illustrates how the proposed loss offers a smoother objective that contains a better defined minima region.
 <table>
 <tr>
 <td>
@@ -52,9 +53,9 @@ The proposed loss is smoother and contains a better defined minima region.
 </td>
 </tr>
 </table>
-<h2> Interpolation </h2>
-In our first experiment, we selected one random ground-truth pose and we interpolate between it with a random pose.
-It can be seen that the proposed loss is more ﬂat than the IoU.
+<h2> Pose Interpolation </h2>
+In this experiment, an interpolation from a random pose towards the groundtruth pose is presented (_x-axis_), along with the sampled loss function value (_y-axis_).
+The sensitivity of IoU is evident compared to the smoother behaviour of our proposed silhouette loss function.
 <table>
 <tr>
 <td>
@@ -67,9 +68,9 @@ It can be seen that the proposed loss is more ﬂat than the IoU.
 </td>
 </tr>
 </table>
-<h2> Comparison in real data </h2>
-Finally, we provide comparison results between a model trained with an IoU loss and another with our proposed smooth objective, in unseen real data. 
-The smoothly supervised model minimizes inconsistencies in time and is more robust as it can be seen from the above video.
+<h2> Unseen Data Qualitative Performance </h2>
+Finally, the following in-the-wild qualitative results, showcase that a model trained with the smoother objective, offers consistent predictions across time compared to one trained with a typical IoU silhoutte loss. 
+This qualitative comparison in unseen real data highlights the differences between these models, which nonetheless, provide similar quantitative performance on our test set. 
 <table>
 <tr>
 <td>
