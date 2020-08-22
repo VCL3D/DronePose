@@ -84,13 +84,14 @@ This qualitative comparison in unseen real data highlights the differences betwe
 
  <h1> Data </h1>
  
-The data used to train our methods is a subset of the <a href="https://vcl3d.github.io/UAVA/">UAVA dataset</a>. Particularly, we used only the exocentric views that can be found in the following <a href="https://zenodo.org/record/3994337#.Xz_ruzVoSUk">link</a>.
+The data used to train our methods is a subset of the <a href="https://vcl3d.github.io/UAVA/">UAVA dataset</a>. 
+Particularly, we used only the exocentric views that can be found in the following <a href="https://zenodo.org/record/3994337#.Xz_ruzVoSUk">Zenodo repository</a>.
 
 The data can be downloaded following a two-step proccess as described in the corresponding UAVA dataset [page](https://vcl3d.github.io/UAVA/#Usage).
 
 <h1> Publication </h1>
 
-<p><a href="https://arxiv.org/abs/2008.08823.pdf"><img src="./assets/images/PaperImage.png" title="arXiv paper link" alt="arXiv"></a></p>
+<p><a href="https://arxiv.org/pdf/2008.08823.pdf"><img src="./assets/images/PaperImage.png" title="arXiv paper link" alt="arXiv"></a></p>
 
 <h2> Authors </h2>
 
