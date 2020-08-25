@@ -5,7 +5,3 @@
 [![Workshop](http://img.shields.io/badge/R6D-2020-darkblue.svg?style=plastic)](http://cmp.felk.cvut.cz/sixd/workshop_2020/)
 [![Project Page](http://img.shields.io/badge/Project-Page-blueviolet.svg?style=plastic)](https://vcl3d.github.io/DronePose/)
 
-**TODO**:
-- [ ] Pre-trained model
-- [ ] Inference code
-- [ ] Smooth silhoutte loss code
