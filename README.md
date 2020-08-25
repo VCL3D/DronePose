@@ -13,15 +13,15 @@
 - [ ] Inference code
 
 
-# **Data**
+# Data
 The exocentric data used to train our single shot pose estimation model, are available [here](https://vcl3d.github.io/UAVA/) and are part of a larger dataset that contains rendered color images, silhouette masks , depth , normal maps, and optical flow for each viewpoint (e.g. user and UAV).
 NOTE: The data should follow the same organisation structure.
 
-# **Requirements**
+# Requirements
 The code is based on PyTorch and has been tested with Python 3.6 and CUDA 10.1.
 We recommend setting up a virtual environment (follow the `virtualenv` documentation) for installing PyTorch and the other necessary Python packages.
 
-## **Train scripts**
+## Train scripts
 You can train your models by running python train.py with the following arguments:
 
 - `--root_path`: Specifies the root path of the data.
