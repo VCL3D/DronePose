@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Ubuntu 18.04 LTS",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "--root_path", "/media/nzioulis/New Volume/iti-688/Cleaned",
+                "--trajectory_path", "/media/nzioulis/New Volume/iti-688/trajectories/",
+                "--drone_list" , "M2ED",
+                "--view_list", "exocentric",
+                "--frame_list", "0", "1",
+                "--types_list", "colour", "silhouette", "depth",
+                "--exocentric_w", "0.0",
+                "--saved_models_path" , "./data/",
+                "--name" , "DronePose_gauss_35",
+                //"--load_model", "./data/singleshot_v4_model_state_epoch_254",
+                //"--regression_w", ".9",
+                //"--exocentric_w" , "0.1"
+            ]
+        }
+    ]
+}

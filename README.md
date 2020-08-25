@@ -6,6 +6,37 @@
 [![Project Page](http://img.shields.io/badge/Project-Page-blueviolet.svg?style=plastic)](https://vcl3d.github.io/DronePose/)
 
 **TODO**:
-- [ ] Pre-trained model
+- [x] Train scripts
+- [x] Evaluation scripts
+- [x] Pre-trained model
+- [x] Smooth silhoutte loss code
 - [ ] Inference code
-- [ ] Smooth silhoutte loss code
+
+
+# **Data**
+The exocentric data used to train our single shot pose estimation model, are available [here](https://vcl3d.github.io/UAVA/) and are part of a larger dataset that contains rendered color images, silhouette masks , depth , normal maps, and optical flow for each viewpoint (e.g. user and UAV).
+NOTE: The data should follow the same organisation structure.
+
+# **Requirements**
+The code is based on PyTorch and has been tested with Python 3.6 and CUDA 10.1.
+We recommend setting up a virtual environment (follow the `virtualenv` documentation) for installing PyTorch and the other necessary Python packages.
+
+## **Train scripts**
+You can train your models by running python train.py with the following arguments:
+
+- `--root_path`: Specifies the root path of the data.
+- `--trajectory_path`: Specifies the trajectory path. 
+-  `--drone_list`: The drone model from which data will be used.
+-  `--view_list`: The camera view (i.e. UAV or user) from which data will be loaded.
+-  `--frame_list`: The frames (i.e. 0 or 1) that will be loaded.
+-  `--types_list`: The different modalities (e.g. colour,depth,silhouette) that will be loaded from the dataset.
+-  `--saved_models_path`: Path where models are saved.
+
+
+## Pre-trained Models
+Our PyTorch pre-trained models (corresponding to those reported in the paper) are available at our [releases](https://github.com/VCL3D/DronePose/releases) and contain these model variants:
+
+* [__Direct__ @ epoch 20](https://github.com/VCL3D/DronePose/releases/download/DIRECT/Direct)
+* [__I0.1__ @ epoch 20](https://github.com/VCL3D/DronePose/releases/download/I0.1/I0.1)
+* [__S0.1__ @ epoch 20](https://github.com/VCL3D/DronePose/releases/download/S0.1/S0.1)
+* [__Gauss0.1__ @ epoch 20](https://github.com/VCL3D/DronePose/releases/download/Gauss0.1/Gauss0.1)
