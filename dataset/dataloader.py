@@ -92,7 +92,7 @@ class DataLoad(Dataset):
             for frame in self.params.frame_list:
                 frame_dict = {}
                 for type_ in self.params.types_list:
-                    if type_ == "colour" and view == "exocentric":
+                    if type_ == "colour":
                         value = importers.image.load_image(datum[view][str(frame)][type_])
                         #apply transform
                         if self.params.transform is not None:
