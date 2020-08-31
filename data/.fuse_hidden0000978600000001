@@ -1,1 +1,0 @@
-Epoch	Learning Rate	Model	Head	Batch Size	iteration_counter	Six_d_ratio	Regression Weight	Exocentric Weight	Val Normalised Position Error	Val Angular Distance	Val ESA Pose Error Total	2 cm 2 deg acc	5 cm 5 deg acc	10 cm 10 deg acc	ADD 0.02d	ADD 0.05d	ADD 0.10 d	
