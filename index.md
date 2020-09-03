@@ -101,7 +101,7 @@ The data can be downloaded following a two-step proccess as described in the cor
 
 ```
 @inproceedings{albanis2020dronepose,
-  author       = "Georgios, Albanis and Zioulis, Nikolaos and Dimou, Anastasios and Zarpalas, Dimitris and Daras, Petros",
+  author       = "Albanis, Georgios and Zioulis, Nikolaos and Dimou, Anastasios and Zarpalas, Dimitris and Daras, Petros",
   title        = "DronePose: Photorealistic UAV-Assistant Dataset Synthesis for 3D Pose Estimation via a Smooth Silhouette Loss",
   booktitle    = "European Conference on Computer Vision Workshops (ECCVW)",
   month        = "August",
