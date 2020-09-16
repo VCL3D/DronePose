@@ -40,3 +40,6 @@ Our PyTorch pre-trained models (corresponding to those reported in the paper) ar
 * [__I0.1__ @ epoch 20](https://github.com/VCL3D/DronePose/releases/download/I0.1/I0.1)
 * [__S0.1__ @ epoch 20](https://github.com/VCL3D/DronePose/releases/download/S0.1/S0.1)
 * [__Gauss0.1__ @ epoch 20](https://github.com/VCL3D/DronePose/releases/download/Gauss0.1/Gauss0.1)
+
+## In-the-wild (YouTube videos) Results
+![](data/Outdoor_1.gif)
