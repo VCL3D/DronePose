@@ -21,8 +21,22 @@
                 "--saved_models_path" , "./data/",
                 "--name" , "DronePose_gauss_35",
                 //"--load_model", "./data/singleshot_v4_model_state_epoch_254",
-                //"--regression_w", ".9",
-                //"--exocentric_w" , "0.1"
+                "--regression_w", ".9",
+                "--exocentric_w" , "0.1"
+            ]
+        },
+        {
+            "name": "Inference",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                //"--input_path", "/media/tzole1155/LENOVO/Data/good_samples",
+                "--input_path", "/media/tzole1155/LENOVO/Data/Eval/Indoor/M2ED",
+                "--output_path", "/media/tzole1155/LENOVO/Ubuntu/working_projects/tmp/output",
+                "--colour", "red",
+                "--weights", "/media/tzole1155/LENOVO/Ubuntu/working_projects/tmp/Gauss0.1",
             ]
         }
     ]

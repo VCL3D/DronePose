@@ -198,7 +198,7 @@ def render_mask(renderer, vertices,faces,PdroneToCamera,b):
     #forward pass
     predictions , mask , _ = renderer(points=[vertices,faces.long()],colors_bxpx3=colors)
 
-    return predictions #, mask
+    return predictions.transpose(3,1).transpose(3,2) * 255.0 #, mask
 
 def render_silhouette(renderer, vertices,faces,PdroneToCamera,b):
     """Set up renderer for visualising drone based on the predicted pose

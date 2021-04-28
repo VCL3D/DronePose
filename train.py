@@ -15,7 +15,7 @@ import tqdm
 
 def parse_arguments(args):
     usage_text = (
-        "ExocentricEgocentricDronePose3D."
+        "DronePose."
         "Usage:  python train.py [options],"
         "   with [options]: (as described below)"
     )
@@ -25,7 +25,7 @@ def parse_arguments(args):
     parser.add_argument('-b',"--batch_size", default=8, type = int, help = "Train with a <batch_size> number of samples each train iteration.")
     parser.add_argument("--test_batch_size", default= 8, type = int, help = "Test with a <batch_size> number of samples each test iteration.")    
     parser.add_argument('-d','--disp_iters', type=int, default=50, help='Log training progress (i.e. loss etc.) on console every <disp_iters> iterations.')
-    parser.add_argument('-w','--workers', type=int, default=4, help='Test model every <test_iters> iterations.')
+    parser.add_argument('-w','--workers', type=int, default=4, help='Number of workers.')
     # paths
     parser.add_argument("--root_path", type = str, help = "Path to the root folder containing all the files")
     parser.add_argument("--trajectory_path", type = str, help = "Path containing the ground_truth poses")

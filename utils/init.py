@@ -3,6 +3,13 @@ import torch
 import os
 import sys
 
+def load_weights(model,weights_file):
+        if os.path.exists(weights_file):
+            weights = torch.load(weights_file)
+            model.load_state_dict(weights["model_state_dict"])
+        else:
+            print("Provide a valid weights file")
+
 def initialize_weights(model, optimizer, init = "xavier"):    
     init_func = None
     if init == "xavier":
