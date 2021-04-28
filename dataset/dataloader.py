@@ -46,7 +46,7 @@ class DataLoad(Dataset):
                 continue
             root_path_ = os.path.join(root_path,drone)
             for view in os.listdir(root_path_):
-                if view not in self.view_list:
+                if view not in self.params.view_list:
                     continue
                 view_path = os.path.join(root_path_,view)
                 #get included types
