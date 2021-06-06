@@ -23,7 +23,7 @@ We recommend setting up a virtual environment (follow the `virtualenv` documenta
 
 **Note**
 
-For running the inference code, Kaolin(0.1.0) is need.
+For running the inference code, Kaolin(0.1.0) is needed.
 
 ## Train scripts
 You can train your models by running python train.py with the following arguments:
@@ -49,7 +49,7 @@ Our PyTorch pre-trained models (corresponding to those reported in the paper) ar
 You can try any of the above models by using our infer.py script and by setting the below arguments:
 - `--input_path`: Path to the root folder containing the images.
 - `--output_path`: Path for saving the final result.
-- `--weights`: Path to the trained weights file.
+- `--weights`: Path to the pretrained model.
 
 ## In-the-wild (YouTube videos) Results
 ![](data/Outdoor_1.gif)
